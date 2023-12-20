@@ -1,0 +1,82 @@
+.root{
+    height: 450px;
+    position: relative;
+    text-align: center;
+}
+
+body{
+    background-image: url(../imagenes/d5.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    margin: 15px;
+    height: 100vh;
+}
+
+.container{
+    background-color: rgb(68, 1, 1);
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.6);
+}
+
+.container input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container button{
+    margin-top: 10px;
+    width: 150px;
+    background-color: rgb(73, 73, 73);
+    color: rgb(242, 242, 242);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container button:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color:rgba(255, 0, 0, 0.481);
+}
+
+.container .tittle:hover{
+    color: rgb(236, 235, 235);
+    cursor: pointer;
+}
+
+.container input:focus{
+    background-color: rgb(29, 29, 29);
+}
+
+    h3{
+        padding-top: 1.5rem;
+        color: rgb(89, 89, 89);
+    }
+
+a{
+    text-decoration: none;   
+}
+
+    h6{
+
+        background-color: rgb(40, 39, 39);
+        color:rgb(184, 173, 173) ;
+        border-radius: 8px;
+        padding: 10px;
+        
+    }
