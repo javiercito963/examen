@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/d7.jpg);
+    margin: 0%;
+    background-size: cover;
+    background-repeat: repeat-y;
+
+}
+
+#slider{
+    padding: 150px;
+}
+a{
+    text-align: center;
+}
+
+    h6{
+
+        background-color: rgb(40, 39, 39);
+        color:rgb(184, 173, 173) ;
+        border-radius: 8px;
+        padding: 10px;
+        
+    }
